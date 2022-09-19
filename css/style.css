@@ -1,0 +1,605 @@
+/* navbar css */
+.navbar{
+    padding: 15px 0;
+    background-color: #F6FBF4;
+}
+.navbar-light .navbar-brand {
+    color: #243A73;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #243A73;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 700;
+    color: black;
+}
+button.search_btn{
+    background: none;
+    border: none;
+    outline: none;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.btn:not(:disabled):not(.disabled):hover{
+    color: #fff;
+    background-color: #15133C;
+    transition: .3s;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+    font-weight: 700;
+}
+
+/* banner css */
+.banner{
+    background-image: url(../images/banner.jpg);
+    padding-top: 210px;
+    padding-bottom: 210px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6;
+}
+.banner2{
+    background-image: url(../images/banner2.jpg);
+    padding-top: 210px;
+    padding-bottom: 210px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner2::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6;
+}
+.banner3{
+    background-image: url(../images/banner3.jpg);
+    padding-top: 210px;
+    padding-bottom: 210px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner3::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6;
+}
+.banner_text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #FAF4B7;
+}
+.banner_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #DAEAF1;
+    margin-top: 15px;
+    margin-bottom: 30;
+}
+.banner_text a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #990000;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.banner_text a:hover{
+    background-color: #243A73;
+    transition: .3s;
+}
+
+/* content css */
+.about, .contact, .service, .team{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #F6FBF4;
+}
+.ab_heading h2, .md_heading h2, .co_md_heading h2, .event_heading h2, .contact_heading h2, .service_heading h2, .team_heading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #243A73;
+    text-transform: uppercase;
+    position: relative;
+}
+.ab_heading h2::after, .md_heading h2::after, .co_md_heading h2::after, .event_heading h2::after, .contact_heading h2::after, .service_heading h2::after, .team_heading h2::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: #990000;
+    left: 0;
+    bottom: -20px;
+}
+.ab_content{
+    background-color: #fff;
+}
+.ab_text{    
+    padding: 13.5px 10px;
+}
+.ab_text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #243A73;
+}
+.ab_text .ab_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3F4E4F;
+}
+.ab_text a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: black;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.ab_text a:hover{
+    background-color: #610c63;
+    transition: .2s;
+}
+.our_boss{
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.boss_text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #243A73;
+}
+.boss_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3F4E4F;
+}
+.boss_text a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: black;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.boss_text a:hover{
+    background-color: #610c63;
+    transition: .2s;
+}
+.event{
+    padding: 10px;
+    background-color: #fff;
+}
+.event_text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #243A73;
+}
+.event_text a{
+    text-decoration: none;
+}
+.event_text h6:hover{
+    color: #3AB0FF;
+    transition: .3s;
+}
+.event_info span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3AB0FF;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+}
+.event_info span i{
+    color: #3F4E4F;
+    margin-right: 5px;
+}
+.contact_info{
+    padding: 20px;
+    background-color: #fff;
+}
+.contact_info label h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #243A73;
+}
+.contact_item .btn3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #00FFAB;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 15px;
+    float: right;
+}
+.contact_item .btn3:hover{
+    background-color: #14C38E;
+    transition: .2s;
+}
+.service_content{
+    background-color: #fff;
+}
+.ser_text {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.ser_text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #73777B;
+    text-transform: uppercase;
+}
+.ser_text hr{
+    background-color: #B6FFCE;
+}
+.ser_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7F8487;
+    margin-top: 40px;
+    margin-bottom: 34px;
+}
+.ser_img{
+    position: relative;
+}
+.ser_overly{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 0%;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    overflow: hidden;
+    transition: all linear .4s;
+}
+.ser_overly_item{
+    padding-top: 102px;
+    padding-left: 10px;
+}
+.ser_overly_item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.ser_overly_item hr{
+    background-color: #fff;
+}
+.ser_overly_item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+.ser_overly_item a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.ser_overly_item a:hover{
+    color: white;
+    background-color: #47B5FF;
+    transition: .2s;
+}
+.ser_img:hover .ser_overly{
+    height: 100%;
+}
+.team_content{
+    padding: 15px;
+    background-color: #fff;
+}
+.team_img{
+    position: relative;
+}
+.team_overly{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+}
+.team_img:hover .team_overly{
+    visibility: visible;
+    opacity: .7;
+    transition: .5s;
+}
+.team_overly_icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.team_overly_icon i{
+    font-size: 22px;
+    color: black;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.team_overly_icon i:hover{
+    color: #fff;
+    background-color: #00FFAB;
+    transition: .2s;
+}
+.team_text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #243A73;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.team_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    color: #73777B;
+}
+
+/* footer css */
+.footer_top{
+    padding: 25px 0;
+    background-color: #15133C;
+}
+.footer_top_text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7F8487;
+}
+.form{
+    border-radius: 20px;
+}
+.footer_subscribe .btn2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3AB0FF;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+.footer_subscribe .btn2:hover{
+    background-color: #1363DF;
+    transition: .2s;
+}
+.follow_text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7F8487;
+}
+.follow_link h4 a{
+    font-size: 15px;
+    color: #fff;
+    background-color: #22577E;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid #fff;
+}
+.follow_link h4 a:hover{
+    background-color: #990000;
+    transition: .2s;
+}
+.footer_bottom{
+    padding: 30px 0;
+    background-color: #0E185F;
+}
+.our_info h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+.our_info h2::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: #990000;
+    left: 0;
+    bottom: -20px;
+}
+.our_info p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F8487;
+    margin-top: 30px;
+}
+.quick_link h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+.quick_link h5::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: #990000;
+    left: 0;
+    bottom: -20px;
+}
+.quick_link ul{
+    margin-top: 30px;
+    list-style: square;
+    color: #5FD068;
+    padding: 0 18px;
+}
+.quick_link ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7F8487;
+    text-transform: uppercase;
+}
+.quick_link ul li a:hover{
+    color: #CED89E;
+}
+.gallery h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+.gallery h4::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: #990000;
+    left: 0;
+    bottom: -20px;
+}
+.gallery_img{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.gallery a{
+    color: #fff;
+    font-size: 13px;
+}
+.blog h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+.blog h4::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: #990000;
+    left: 0;
+    bottom: -20px;
+}
+.blog_text{
+    margin-top: 12px;
+}
+.blog_text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #827397;
+}
+.blog_text h6:hover{
+    color: #BDF2D5;
+}
+.blog_text a{
+    color: #BDF2D5;
+}
+.blog_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* ltd css */
+.ltd{
+    padding: 9px;
+    background-color: #3AB0FF;
+}
+.ltd-text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.ltd-text h6 span{
+    font-weight: 700;
+    color: #FCF69C;
+}
+
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/

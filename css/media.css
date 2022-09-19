@@ -1,0 +1,344 @@
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    .banner_text h3 {
+        font-size: 20px;
+    }
+    .banner_text p {
+        font-size: 12px;
+    }
+    .banner_text a {
+        font-size: 10px;
+    }
+    .about, .contact, .service, .team {
+        padding-top: 27px;
+        padding-bottom: 17px;
+    }
+    .ab_heading h2, .md_heading h2, .co_md_heading h2, .event_heading h2, .contact_heading h2, .service_heading h2, .team_heading h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .ab_text h3 {
+        font-size: 20px;
+    }
+    .ab_text p {
+        font-size: 15px;
+    }
+    .boss_text h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .boss_text p {
+        font-size: 13px;
+    }
+    .boss_text a {
+        font-size: 12px;
+    }
+    .event_text h6 {
+        margin-top: 10px;
+    }
+    .footer_subscribe .btn2 {
+        margin-top: 10px;
+    }
+    .follow_text h6 {
+        margin-top: 10px;
+    }   
+    .follow_link h4{
+        margin-top: 7px;
+    }
+    .follow_link h4 a {
+        font-size: 12px;
+        padding: 7px 11px;
+    }
+    .quick_link ul li a {
+        font-size: 13px;
+    }
+    .blog_text{
+        text-align: center;
+    }
+    .ser_text {
+        padding-top: 47px;
+    }
+    .ser_text h3 {
+        font-size: 22px;
+    }
+    .ser_text p {
+        font-size: 18px;
+    }
+    .ser_overly_item {
+        padding-top: 65px;
+    }
+    .ser_overly_item h4 {
+        font-size: 22px;
+    }
+    .ser_overly_item p {
+        font-size: 16px;
+    }
+    .ser_overly_item a {
+        font-size: 11px;
+    }
+    .team_overly_icon i {
+        font-size: 12px;
+    }
+    .team_text h2 {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .team_text p {
+        font-size: 12px;
+    }
+    .contact_info label h5 {
+        font-size: 17px;
+    }
+    .contact_item .btn3 {
+        font-size: 12px;
+    }
+ }
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .banner_text h3 {
+        font-size: 24px;
+    }
+    .banner_text p {
+        font-size: 14px;
+    }
+    .banner_text a {
+        font-size: 12px;
+    }
+    .about, .contact, .service, .team {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .ab_heading h2, .md_heading h2, .co_md_heading h2, .event_heading h2, .contact_heading h2, .service_heading h2, .team_heading h2 {
+        font-size: 22px;        
+        margin-top: 15px;
+    }
+    .ab_text h3 {
+        font-size: 20px;
+    }
+    .ab_text p {
+        font-size: 15px;
+    }
+    .ab_text a {
+        font-size: 12px;
+    }
+    .boss_text h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .boss_text a {
+        font-size: 13px;
+    }
+    .event_text h6 {
+        margin-top: 10px;
+    }
+    .follow_text h6 {
+        margin-top: 10px;
+    }
+    .follow_link h4{
+        margin-top: 7px;
+    }
+    .follow_link h4 a {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+    .quick_link ul li a {
+        font-size: 14px;
+    }
+    .blog_text{
+        text-align: center;
+    }
+    .ser_text {
+        padding-top: 56px;
+    }
+    .ser_text h3 {
+        font-size: 26px;
+    }
+    .ser_text p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .ser_overly_item h4 {
+        font-size: 25px;
+    }
+    .ser_overly_item {
+        padding-top: 70px;
+    }
+    .ser_overly_item p {
+        font-size: 17px;
+    }
+    .ser_overly_item a {
+        font-size: 12px;
+    }
+    .team_overly_icon i {
+        font-size: 13px;
+        padding: 2px;
+    }
+    .team_text h2 {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .team_text p {
+        font-size: 13px;
+    }
+    .contact_info label h5 {
+        font-size: 18px;
+    }
+    .contact_item .btn3 {
+        font-size: 13px;
+    }
+ }
+
+ /* Medium  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner_text h3 {
+        font-size: 25px;
+    }
+    .banner_text p {
+        font-size: 16px;
+    }
+    .banner_text a {
+        font-size: 12px;
+    }
+    .about, .contact, .service, .team {
+        padding-top: 44px;
+        padding-bottom: 30px;
+    }
+    .ab_heading h2, .md_heading h2, .co_md_heading h2, .event_heading h2, .contact_heading h2, .service_heading h2, .team_heading h2 {
+        font-size: 23px;
+        margin-top: 15px;
+    }
+    .ab_text h3 {
+        font-size: 20px;
+    }
+    .ab_text p {
+        font-size: 16px;
+    }
+    .ab_text a {
+        font-size: 12px;
+    }
+    .boss_text h3 {
+        font-size: 18px;
+    }
+    .boss_text p {
+        font-size: 11px;
+    }
+    .boss_text a {
+        font-size: 10px;
+    }
+    .event_text h6 {
+        margin-top: 40px;
+    }
+    .event_info span {
+        margin-top: 25px;
+    }
+    .follow_text h6 {
+        margin-top: 16px;
+    }
+    .follow_link h4{
+        margin-top: 10px;
+    }
+    .quick_link ul li a {
+        font-size: 15px;
+    }
+    .blog_text h6 {
+        margin-top: 40px;
+    }
+    .blog_text p {
+        margin-top: 25px;
+    }
+    .gallery{
+        margin-top: 15px;
+    }
+    .ser_text {
+        padding-top: 37px;
+        padding-bottom: 10px;
+    }
+    .ser_text h3 {
+        font-size: 20px;
+    }    
+    .ser_text p {
+        font-size: 15px;
+        margin-top: 22px;
+    }
+    .ser_overly_item {
+        padding-top: 36px;
+    }
+    .ser_overly_item h4 {
+        font-size: 20px;
+    }
+    .ser_overly_item p {
+        font-size: 12px;
+    }
+    .ser_overly_item a {
+        font-size: 9px;
+    }
+    .team_overly_icon i {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .team_text h2 {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .team_text p {
+        font-size: 13px;
+    }
+    .contact_info label h5 {
+        font-size: 18px;
+    }
+    .contact_item .btn3 {
+        font-size: 14px;
+    }
+ }
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .ab_text {
+        padding: 10.5px 9px;
+    }
+    .ab_text h3 {
+        font-size: 20px;
+    }
+    .ab_text p {
+        font-size: 14px;
+    }
+    .boss_text h3 {
+        font-size: 17px;
+    }
+    .our_boss {
+        padding: 6px;
+    }
+    .boss_text p {
+        font-size: 12px;
+    }
+    .boss_text a {
+        font-size: 12px;
+        padding: 5px 13px;
+    }
+    .event_text h6 {
+        font-size: 11px;
+    }
+    .event_info span {
+        font-size: 11px;
+    }
+    .follow_text h6 {
+        font-size: 18px;
+        padding-top: 9px;
+    }
+    .follow_link h4 a {
+        font-size: 14px;
+        padding: 8px 13px;
+        margin: 0 3px;
+    }
+    .ser_text {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .ser_text p {
+        margin-top: 21px;
+        margin-bottom: 10px;
+    }
+    .ser_overly_item {
+        padding-top: 50px;
+    }
+ }
